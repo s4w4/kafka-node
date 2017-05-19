@@ -1,0 +1,17 @@
+{
+  "name": "kafka-example-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-producer": "node index.js",
+    "start-consumer": "node consumer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kafka-node": "^1.6.2",
+    "kafka-rest": "0.0.5"
+  }
+}
